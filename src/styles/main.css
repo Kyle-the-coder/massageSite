@@ -1,0 +1,27 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(15, 15, 15);
+  color: white;
+  z-index: -2;
+}
+
+.main-container {
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+  background-color: rgb(15, 15, 15);
+}
+.main-container,
+.navbar-main-container {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Font2";
+  src: url("./Outfit-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
