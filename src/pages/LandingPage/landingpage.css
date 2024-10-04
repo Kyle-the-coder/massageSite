@@ -9,8 +9,8 @@
   width: 100%;
   height: 800px;
   display: flex;
-  align-items: top;
-  justify-content: right;
+  align-items: flex-end;
+  justify-content: center;
   position: relative;
   margin-bottom: 100px;
   background: radial-gradient(
@@ -36,6 +36,9 @@
   align-items: center;
   height: fit-content;
   width: fit-content;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .landing-page-quote-container > h1 {
