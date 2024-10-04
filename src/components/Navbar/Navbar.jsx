@@ -94,10 +94,9 @@ export function Navbar() {
       });
     }
   }, [hoverIndex]);
-
   return (
     <div className="navbar-main-container">
-      {windowWidth <= 600 ? (
+      {windowWidth <= 800 ? (
         //Phone View
         <div className="navbar-main-container">
           <img
@@ -137,7 +136,11 @@ export function Navbar() {
         //Default Monitor View
         <>
           <div className="navbar-logo-container">
-            <Button buttonName={"Contact Us"} size="1.5rem" />
+            <Button
+              padding="10px 15px 10px 15px"
+              buttonName={"Contact Us"}
+              size="1.5rem"
+            />
             <img
               src={logo}
               className="navbar-logo"
