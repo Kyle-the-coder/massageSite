@@ -22,7 +22,6 @@ export function Navbar() {
     { linkName: "Therapists", link: "/therapists" },
     { linkName: "Services", link: "/services" },
     { linkName: "Location & Hours", link: "/location" },
-    { linkName: "Contact", link: "/contact" },
     { linkName: "Careers", link: "/careers" },
   ];
 
@@ -138,7 +137,7 @@ export function Navbar() {
         //Default Monitor View
         <>
           <div className="navbar-logo-container">
-            <Button buttonName={"Book Now"} />
+            <Button buttonName={"Contact Us"} />
             <img
               src={logo}
               className="navbar-logo"
