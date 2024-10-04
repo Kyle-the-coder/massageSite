@@ -11,7 +11,7 @@ function LandingPage() {
           <h1>Idaho's best massage 2023</h1>
           <img src={badge} />
         </div>
-        <Button buttonName="Book Now" />
+        <Button buttonName="Book Now" size="2.5rem" />
         <div className="vignette-overlay"></div>
         <img src={massage} />
       </div>

@@ -1,8 +1,10 @@
 import "./button.css";
 
-export function Button({ buttonName }) {
+export function Button({ buttonName, size }) {
   return (
     /* From Uiverse.io by Codecite */
-    <button className="btn">{buttonName}</button>
+    <button className="btn" style={{ fontSize: size }}>
+      {buttonName}
+    </button>
   );
 }

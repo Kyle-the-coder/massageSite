@@ -137,7 +137,7 @@ export function Navbar() {
         //Default Monitor View
         <>
           <div className="navbar-logo-container">
-            <Button buttonName={"Contact Us"} />
+            <Button buttonName={"Contact Us"} size="1.5rem" />
             <img
               src={logo}
               className="navbar-logo"

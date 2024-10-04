@@ -11,13 +11,15 @@
   width: 100%;
   height: 60%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 2%;
 }
 
 .navbar-socials-container {
   width: 10%;
   display: flex;
+  padding: 5px;
   align-items: center;
   justify-content: center;
 }
@@ -27,10 +29,15 @@
   cursor: pointer;
 }
 
+.navbar-button-container {
+  flex-grow: 0; /* Keep the button from stretching */
+  margin-right: auto; /* Ensure the button stays on the left */
+}
 .navbar-logo {
   width: 270px;
   cursor: pointer;
   z-index: 5;
+  margin: 0 auto;
 }
 
 .navbar-link-container {
@@ -68,6 +75,7 @@
     align-items: center;
     position: relative;
     z-index: 4;
+    padding: 0;
   }
 
   .navbar-phone-hamburger {
@@ -75,6 +83,10 @@
     margin-right: 3%;
     z-index: 2;
     filter: invert(1);
+  }
+
+  .navbar-logo {
+    margin: 0;
   }
 
   .navbar-phone-dropdown-container {
